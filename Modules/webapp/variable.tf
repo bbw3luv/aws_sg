@@ -27,5 +27,9 @@ variable "ingress_rules" {
    type = list(string) 
     
 }
+variable "egress_rules" {
+   type = list(string) 
+    
+}
 
 
