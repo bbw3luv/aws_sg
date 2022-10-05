@@ -10,4 +10,5 @@ module "sg_test" {
   description =   "fly-eagle-security_group"
   department  = "riot.games.techops"
   ingress_rules = var.sg_ingress_rules
+  ingress_rules = var.sg_egress_rules
 }
