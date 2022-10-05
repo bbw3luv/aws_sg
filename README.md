@@ -15,9 +15,10 @@ No requirements.
 | department | department for cost of security group | `any` | n/a | yes |
 | description | Description of security group | `string` | n/a | yes |
 | ingress\_rules | n/a | `list(string)` | n/a | yes |
-| name | Name of security\_group | `string` | `null` | no |
+| egress\_rules | n/a | `list(string)` | n/a | yes |
+| name | Name of security\_group | `string` | `null` | yes |
 | owner | Owner of security group | `any` | n/a | yes |
-| vpc\_id | ID of the VPC where to create securitiy group | `string` | `null` | no |
+| vpc\_id | ID of the VPC where to create securitiy group | `string` | `null` | yes |
 
 ## Outputs
 
